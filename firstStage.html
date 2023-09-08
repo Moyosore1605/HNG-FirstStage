@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./firstStage.css">
+    <title>About Me</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1 data-testid="slackUserName">Moyosorejesu Emmanuel Ojo</h1>
+        <h4>About Me</h4>
+    </div>
+    <div class="card">
+        <section class="section1">
+            <img src="./profileImage.jpeg" width="200px" alt="Moyosorejesu Emmanuel Ojo" data-testid="slackDisplayImage" >
+            <h1>About me</h1>
+            <p>I am a frontend developer and I'm currently in the HNG Internship Program. I'm in the frontend track.</p>
+        </section>
+        <section class="section2">
+            <h1>HELLO</h1>
+            <h4>I'm <strong>Moyosorejesu Ojo</strong></h4>
+            <p data-testid="myTrack">Frontend Developer</p>
+            <div>
+                <section class="section3">
+                    <p>Age</p>
+                    <p>e-mail</p>
+                    <p>Phone</p>
+                    <img src="./github-mark.png" width="20px">
+                    <p>Freelance</p>
+                    <p>Day</p>
+                    <p>Time</p>
+                </section>
+                <section class="section4">
+                    <p>18</p>
+                    <p>moyosorejesuemmanuel@gmail.com</p>
+                    <p>+2348143031481</p>
+                    <a href="https://github.com/Moyosore1605/HNG-FirstStage.git" target="_blank" data-testid=“githubURL”>Click to view source code</a>
+                    <p style="margin-top:22px;">Available</p>
+                    <p id="day" data-testid="currentDayOfTheWeek"></p>
+                    <p id="time" data-testid="currentUTCTime"></p>
+                </section>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+<script src="./firstStage.js"></script>
