@@ -84,3 +84,97 @@ body{
 .section4{
     height:200px!important;
 }
+
+@media (max-width:1000px){
+    .section3{
+        margin-right: 10px;
+    }
+    .section3 p{
+        font-size: 13px;
+    }
+    .section4 p{
+        font-size: 13px;
+    }
+}
+@media (max-width:900px){
+    /* .card{
+        flex-direction: column;
+    } */
+    .navbar{
+        padding-left: 5%;
+    }
+    .navbar h1{
+        margin-right:5%;
+    }
+    .section1{
+        margin-right:10px;
+    }
+    .section1 img{
+        width:100px;
+    }
+    .section1 h1{
+        font-size:18px;
+    }
+    .section1 p{
+        font-size:13px;
+    }
+    .section3{
+        margin-right: 10px;
+    }
+    .section3 p{
+        font-size: 13px;
+    }
+    .section4 p{
+        font-size: 13px;
+    }
+}
+@media (max-width:760px){
+    .card{
+        width: 80%;
+    }
+    .navbar{
+        padding:0px!important;
+        padding-bottom:15%!important;
+        justify-content: center;
+        width: 100%;
+    }
+}
+@media (max-width:600px){
+    .card{
+        width: 90%;
+    }
+    .navbar{
+        padding:0px!important;
+        padding-bottom:15%!important;
+        justify-content: center;
+        width: 100%;
+    }
+}
+@media (max-width:500px){
+    .card{
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        width:93%;
+        height: 670px;
+        top:100px;
+    }
+    .section2 h1{
+        margin-left: 60px;
+    }
+    .navbar h1{
+        font-size: 20px;
+    }
+    .navbar{
+        padding:0px!important;
+        padding-bottom:15%!important;
+        justify-content: center;
+        width: 100%;
+    }
+    .navbar h1{
+        margin-right:0px;
+    }
+    .navbar h4{
+        display: none;
+    }
+}
